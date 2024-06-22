@@ -1,0 +1,29 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+canvas {
+    animation-name: thingy;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes thingy {
+
+    from {box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px blue;}
+
+}
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 12, 13);
+    line-height: 3;
+    text-align: center;
+}
